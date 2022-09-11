@@ -516,7 +516,7 @@ static const char* const lookupTableFreqDomain[] = {
     "AU433", "AU915", "EU433", "EU868", "IN866", "FCC915",
 #endif
 #ifdef USE_RX_SX1280
-    "ISM2400",
+    "ISM2400", "CE2400"
 #endif
 #if !defined(USE_RX_SX127X) && !defined(USE_RX_SX1280)
     "NONE",
@@ -524,7 +524,7 @@ static const char* const lookupTableFreqDomain[] = {
 };
 
 static const char* const lookupTableSwitchMode[] = {
-    "HYBRID", "WIDE",
+    "WIDE", "HYBRID",
 };
 #endif
 
